@@ -1,12 +1,22 @@
-# pwa-text-editor
+# Just Another Text Editor (J.A.T.E), a PWA
 
-## User Story
+##Description
+
+J.A.T.E is a Progressive Web Application (PWA) that runs in the browser as well as offline. It can be installed locally on your machine. This application runs regardless of browser supported function.
+
+J.A.T.E uses an IndexedDB database and the idb package. 
+This application is deployed to Render.
+To access it in production continue reading the documentation!
+
+##Usage 
+
+### User Story
 
 AS A developer
 I WANT to create notes or code snippets with or without an internet connection
 SO THAT I can reliably retrieve them for later use
 
-## Acceptance Criteria
+### Acceptance Criteria
 
 GIVEN a text editor web application
 
@@ -45,3 +55,39 @@ THEN I should have my static assets pre cached upon loading along with subsequen
 
 WHEN I deploy to Render
 THEN I should have proper build scripts for a webpack application
+
+## Installation
+
+This application is deployed on Render.
+
+To run J.A.T.E locally:
+
+Pull down and/or branch this repository
+Run npm i to install all dependencies
+Use npm run start to invoke the application
+
+## License
+
+This project is licensed under the MIT license
+
+## Technologies Used
+
+
+JavaScript
+IndexedDB
+Express
+NodeJS
+Babel
+Mini-CSS-Extract Plugin
+Webpack+Workbox
+Concurrently
+
+## Testing
+
+No testing done.
+
+## Contact
+
+You may find this and other proejcts at 
+To visit this repository: git@github.com:katvela24/pwa-text-editor.git
+
