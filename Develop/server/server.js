@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // app.use(express.static('../client/dist'));
-res.sendfile('./main.html');
+res.sendfile('./main.html');;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
