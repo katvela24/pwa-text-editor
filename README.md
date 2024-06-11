@@ -66,6 +66,11 @@ Pull down and/or branch this repository
 Run npm i to install all dependencies
 Use npm run start to invoke the application
 
+
+See screenshot:
+
+![pwa image](assets/pwa%20screenshot.png)
+
 ## License
 
 This project is licensed under the MIT license
